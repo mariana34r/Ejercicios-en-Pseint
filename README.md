@@ -22,26 +22,26 @@ Un juego simple donde intentas adivinar un número secreto.
 5. Escribir "Presione 2 para salir"
 6. Leer opcn
    
-   si opcn = 1 Entonces
-       Escribir "🎮 El juego comienza ahora"
-       Repetir
-           Escribir "Adivine el número"
-           Leer Num1
-           si Num1 = 89 Entonces
-               Escribir "🎉 ¡Adivinaste!"
-           Sino
-               si Num1 >= 89 Entonces
-                   Escribir "🔽 El número es más bajo"
-               Sino
-                   Escribir "🔼 El número es más alto"
-               FinSi
-           FinSi
-       Hasta Que Num1 = 89
+ si opcn = 1 Entonces
+    Escribir "🎮 El juego comienza ahora"
+    Repetir
+        Escribir "Adivine el número"
+        Leer Num1
+        si Num1 = 89 Entonces
+            Escribir "🎉 ¡Adivinaste!"
+        Sino
+            si Num1 >= 89 Entonces
+                Escribir "🔽 El número es más bajo"
+            Sino
+                Escribir "🔼 El número es más alto"
+            FinSi
+        FinSi
+    Hasta Que Num1 = 89
 
-   Sino
-       si opcn = 2 Entonces
-           Escribir "🚪 Usted ha salido del juego"
-       FinSi
+Sino
+    si opcn = 2 Entonces
+        Escribir "🚪 Usted ha salido del juego"
+    FinSi
 
 ## Características✨
 Interfaz simple para jugar.
