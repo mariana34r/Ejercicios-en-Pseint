@@ -3,45 +3,26 @@
 
 Un juego simple donde intentas adivinar un número secreto.
 
----
 
+##  Ejemplo de Uso 🚀
 
-## ℹ️ Instrucciones de Uso 📐
+Inicio del Juego:
 
-1. Ingresa la opción deseada para empezar el juego o salir.
-2. Si eliges jugar, intenta adivinar el número secreto.
-3. El programa te dirá si tu número es mayor o menor hasta que adivines correctamente.
+Al iniciar el juego, verás un mensaje que te pedirá elegir entre dos opciones:
+Opción 1: Jugar
+Opción 2: Salir
+Comenzando el Juego:
 
+Si eliges la opción 1 (Jugar), el juego comenzará y te pedirá que adivines un número entre un rango específico.
+Adivinando el Número:
 
-## 🚀 Ejemplo de Uso
+El juego te dará pistas después de cada intento:
 
-1. Escribir "🔢 Adivina el número"
-2. Escribir ""
-3. Escribir "¿Estás listo?"
-4. Escribir "Presione 1 para jugar"
-5. Escribir "Presione 2 para salir"
-6. Leer opcn
-   
- si opcn = 1 Entonces
-    Escribir "🎮 El juego comienza ahora"
-    Repetir
-        Escribir "Adivine el número"
-        Leer Num1
-        si Num1 = 89 Entonces
-            Escribir "🎉 ¡Adivinaste!"
-        Sino
-            si Num1 >= 89 Entonces
-                Escribir "🔽 El número es más bajo"
-            Sino
-                Escribir "🔼 El número es más alto"
-            FinSi
-        FinSi
-    Hasta Que Num1 = 89
+Te dirá si el número que ingresaste es mayor o menor que el número secreto.
+Continuará pidiéndote que ingreses números hasta que adivines correctamente el número secreto.
+Salida del Juego:
 
-Sino
-    si opcn = 2 Entonces
-        Escribir "🚪 Usted ha salido del juego"
-    FinSi
+Si en algún momento decides salir (opción 2), el juego terminará y se mostrará un mensaje indicando que has salido del juego.
 
 ## Características✨
 Interfaz simple para jugar.
